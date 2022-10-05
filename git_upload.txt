@@ -1,0 +1,71 @@
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class
+$ git init
+Initialized empty Git repository in F:/python_class/.git/
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git add .
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git commit -m "My first git upload"
+[master (root-commit) f8c246e] My first git upload
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git branch -M master
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git remote add origin git@github.com:hzaman10/UIT108.git
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git push -u origin master
+The authenticity of host 'github.com (20.205.243.166)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git remote add origin git@github.com:hzaman10/UIT108.git
+error: remote origin already exists.
+
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git remote add origin git@github.com:hzaman10/UIT108_new.git
+error: remote origin already exists.
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git remote add origin git@github.com:hzaman10/UIT108.git
+error: remote origin already exists.
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'github.com:hzaman10/UIT108.git'
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git push -u origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ git remote add origin https://github.com/hzaman10/UIT108.git
+error: remote origin already exists.
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$ ^C
+
+HP@DESKTOP-E8NVPBD MINGW64 /f/python_class (master)
+$
